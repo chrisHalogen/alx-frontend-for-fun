@@ -5,6 +5,7 @@ This script converts markdown code to HTML
 import argparse
 import pathlib
 import re
+import sys
 
 
 def convert_md_to_html(input_file, output_file):
